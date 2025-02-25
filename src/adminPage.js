@@ -312,14 +312,9 @@ const AdminPage = () => {
           <h2>Admin Page</h2>
           <h1 style={{marginTop: "2em"}}>Compartilhe sua página</h1>
           <button style={{ backgroundColor: thirdColor, color: secondaryColor, borderColor: secondaryColor, border: "2px solid", marginTop: "0.5em" }}
-          onClick={handleCopyUrl}
-          >
-            Copiar Url
-          </button>
-          <button style={{ backgroundColor: thirdColor, color: secondaryColor, borderColor: secondaryColor, border: "2px solid", marginTop: "0.5em" }}
           onClick={() => {navigate(`/${doc}`)}}
           >
-            Ir para página
+            Ir para sua página
           </button>
           {openPopUp ? (
                 <div className="form_user popUp" style={{ backgroundColor: primaryColor }}>
