@@ -34,11 +34,11 @@ Este projeto está licenciado sob a Licença BY-NC - veja o arquivo LICENSE para
 
 Caso tenha dúvidas ou sugestões, entre em contato:
 
-📧 Email: seuemail@email.com
+📧 Email: malvesbruno0@gmailcom
 
-🔗 LinkedIn: Seu Nome
+🔗 LinkedIn: Bruno Massuete
 
-📂 Repositório: GitHub
+📂 Repositório: malvesbruno
 
 Esperamos que SmoothScheduler facilite seu gerenciamento de compromissos! 🚀
 
