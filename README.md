@@ -28,7 +28,7 @@ Autenticação: Firebase Auth
 
 📜 Licença
 
-Caso deseje obter uma licença para utilizar SmoothScheduler, entre em contato.
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 
 📞 Contato
 
