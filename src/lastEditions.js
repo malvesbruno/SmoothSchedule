@@ -211,7 +211,9 @@ const LastEditions = () => {
   
       let url_res = file; // Se não houver upload, manter a imagem original
       try {
-        url_res = await uploadImage(userId, file);
+        if (img !== default_img){
+          url_res = await uploadImage(userId, file);
+        }
       } catch (e) {
         console.log("Erro no upload da imagem:", e);
       }
@@ -307,7 +309,7 @@ const LastEditions = () => {
         
             <img
               className="pp primary_color secundary_color_pp"
-              src="https://res.cloudinary.com/dcikxq4qx/image/upload/v1739233862/users/J7gPLqwM42ddl4zV5iXjhpo73rE3/images/u5ncmme6rrahrxe3uf9o.png"
+              src="https://res.cloudinary.com/dcikxq4qx/image/upload/v1739492049/user/enb5zeum4cxieopxgus6.png"
               alt="Profile"
             />
             
