@@ -1,0 +1,421 @@
+@media (min-width: 319px) and (max-width: 656px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.side1{
+        width: 100%;
+        height: 40%;
+    }
+    div.side2{
+        width: 100%;
+        height: 60%;
+    }
+    div.side1 .icon{
+        height: 50%;
+        width: auto;
+        margin-top: 0em;
+    }
+    div.side1 > ul{
+        margin: 0;
+        font-size: 0.8em;
+    }
+    div.side1 > ul > li{
+        margin-block: 0.2em;
+    }
+
+    div.side1form{
+        width: 100%;
+        height: 60%;
+    }
+
+    div.side2form{
+        width: 100%;
+        height: 40%;
+    }
+
+    div.side1form > form > input{
+        margin: 0.3em;
+    }
+
+    div.side1form > form > button{
+        margin: 0.5em;
+        height: 2em;
+    }
+    div.side2form > button{
+        margin: 0.3em;
+        height: 2em;
+    }
+
+    div.profile .card .pp{
+        width: 60%;
+    }
+
+    div.profile .card{
+        width: 90%;
+    }
+
+    div.profile .card h1{
+        font-size: 1.3em;
+    }
+
+    div.profile .card h2{
+        font-size: 1em;
+    }
+
+    div.profile .card button{
+        width: 80%;
+    }
+      div.profile .card .socialMedias{
+        width: 90%;
+      }
+
+      div.profile .card .map{
+        width: 80%;
+        height: 100%;
+      }
+
+      div.profile .card table{
+        width: 90%;
+      }
+
+      table, thead, tbody, th, td, tr {
+        display: block; /* Transforma cada linha em um bloco */
+      }
+    
+      thead {
+        display: none; /* Oculta o cabeçalho da tabela */
+      }
+    
+      tr {
+        margin-bottom: 10px; /* Espaçamento entre os blocos */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    
+      td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        text-align: right;
+        align-items: center;
+      }
+    
+      td::before {
+        content: attr(data-label); /* Exibe o nome da coluna antes do valor */
+        font-weight: bold;
+        text-align: left;
+        margin-right: 8px;
+      }
+
+      div.profile input{
+        width: 80%;
+      }
+
+      div.form_user .closeTap button{
+        width: 3em;
+      }
+
+      div.form_user.popUp .checkbox-container{
+        width: 95%;
+      }
+
+      div.form_user .form_area input{
+        width: 80%;
+      }
+
+      div.form_user .form_area .checkbox-container{
+        width: 95%;
+        flex-direction: column;
+      }
+
+      div.form_user .form_area .checkbox-container .checkmark{
+        width: 30px;
+      }
+
+      div.form_user{
+        width: 100%;
+      }
+
+      div.form_info form{
+        width: 100%;
+        border: none;
+        animation: none;
+      }
+
+      div.form_info form img.logo{
+        width: 40% !important;
+      }
+
+      div.form_info > form > input{
+        width: 60%;
+      }
+
+      div.form_info .input_social{
+        margin-left: 30%;
+      }
+
+      div.form_info form h1{
+        font-size: 1.5em;
+      }
+
+      div.form_info button{
+        width: 80%;
+      }
+
+      div.form_info .time-picker .btn{
+        width: 90%;
+      }
+
+      div.form_info p.text input{
+        width: 20%;
+        padding-right: 1em;
+      }
+
+      div.servicos{
+        display: flex;
+        flex-direction: column;
+      }
+
+      div.item_servico{
+        flex-direction: column;
+        box-shadow: 0px 0px 5px #ebb52c3f;
+        margin: 0.5em;
+        padding: 0.5em;
+        border-radius: 20px;
+      }
+
+      div.item_servico input{
+        width: 70%;
+      }
+
+      .PopUpMessageUser{
+        top: 50%;
+        left: auto;
+        width: 70%;
+        height: 30%;
+      }
+
+      .PopUpMessage{
+        width: 70%;
+        height: 30%;
+        top: 50%;
+        left: 3%;
+      }
+}
+
+@media (min-width: 656px) and (max-width: 769px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.side1{
+        width: 100%;
+        height: 40%;
+    }
+    div.side2{
+        width: 100%;
+        height: 60%;
+    }
+    div.side1 .icon{
+        height: 80%;
+        width: auto;
+        margin-top: 0em;
+    }
+    div.side1 > ul{
+        margin: 0;
+        font-size: 0.8em;
+    }
+    div.side1 > ul > li{
+        margin-block: 0.2em;
+    }
+
+    div.side1form{
+        width: 100%;
+        height: 60%;
+    }
+
+    div.side2form{
+        width: 100%;
+        height: 40%;
+    }
+
+    div.side1form > form > input{
+        margin: 0.3em;
+    }
+
+    div.side1form > form > button{
+        margin: 0.5em;
+        height: 2em;
+    }
+    div.side2form > button{
+        margin: 0.3em;
+        height: 2em;
+    }
+
+    div.profile .card .pp{
+        width: 60%;
+    }
+
+    div.profile .card{
+        width: 90%;
+    }
+
+    div.profile .card h1{
+        font-size: 1.3em;
+    }
+
+    div.profile .card h2{
+        font-size: 1em;
+    }
+
+    div.profile .card button{
+        width: 80%;
+    }
+      div.profile .card .socialMedias{
+        width: 90%;
+      }
+
+      div.profile .card .map{
+        width: 80%;
+        height: 100%;
+      }
+
+      div.profile .card table{
+        width: 90%;
+      }
+
+      table, thead, tbody, th, td, tr {
+        display: block; /* Transforma cada linha em um bloco */
+      }
+    
+      thead {
+        display: none; /* Oculta o cabeçalho da tabela */
+      }
+    
+      tr {
+        margin-bottom: 10px; /* Espaçamento entre os blocos */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    
+      td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        text-align: right;
+        align-items: center;
+      }
+    
+      td::before {
+        content: attr(data-label); /* Exibe o nome da coluna antes do valor */
+        font-weight: bold;
+        text-align: left;
+        margin-right: 8px;
+      }
+
+      div.profile input{
+        width: 80%;
+      }
+
+      div.form_user .closeTap button{
+        width: 3em;
+      }
+
+      div.form_user.popUp .checkbox-container{
+        width: 95%;
+      }
+
+      div.form_user .form_area input{
+        width: 80%;
+      }
+
+      div.form_user .form_area .checkbox-container{
+        width: 95%;
+        flex-direction: column;
+      }
+
+      div.form_user .form_area .checkbox-container .checkmark{
+        width: 30px;
+      }
+
+      div.form_user{
+        width: 100%;
+      }
+
+      div.form_info form{
+        width: 100%;
+        border: none;
+        animation: none;
+      }
+
+      div.form_info form img.logo{
+        width: 40% !important;
+      }
+
+      div.form_info > form > input{
+        width: 60%;
+      }
+
+      div.form_info .input_social{
+        margin-left: 30%;
+      }
+
+      div.form_info form h1{
+        font-size: 1.5em;
+      }
+
+      div.form_info button{
+        width: 80%;
+      }
+
+      div.form_info .time-picker .btn{
+        width: 90%;
+      }
+
+      div.form_info p.text input{
+        width: 20%;
+        padding-right: 1em;
+      }
+
+      div.servicos{
+        display: flex;
+        flex-direction: column;
+      }
+
+      div.item_servico{
+        flex-direction: column;
+        box-shadow: 0px 0px 5px #ebb52c3f;
+        margin: 0.5em;
+        padding: 0.5em;
+        border-radius: 20px;
+      }
+
+      div.item_servico input{
+        width: 70%;
+      }
+
+      .PopUpMessageUser{
+        top: 50%;
+        left: auto;
+        width: 70%;
+        height: 30%;
+      }
+
+      .PopUpMessage{
+        width: 70%;
+        height: 30%;
+        top: 50%;
+        left: 3%;
+      }
+
+      div.profile .card table button{
+        width: 50% !important;
+      }
+}
