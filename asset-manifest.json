@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SmoothSchedule/static/css/main.61c3d5ad.css",
+    "main.js": "/SmoothSchedule/static/js/main.ce45c178.js",
+    "static/js/453.a6a97343.chunk.js": "/SmoothSchedule/static/js/453.a6a97343.chunk.js",
+    "static/media/mountain.jpg": "/SmoothSchedule/static/media/mountain.8d210d41e439bef0b4da.jpg",
+    "static/media/background.png": "/SmoothSchedule/static/media/background.775fb27837c24612da89.png",
+    "static/media/icon_black_frase.png": "/SmoothSchedule/static/media/icon_black_frase.e04d30132426634baafd.png",
+    "static/media/icon_black.png": "/SmoothSchedule/static/media/icon_black.19be150de22df7947f01.png",
+    "static/media/icon_orange.png": "/SmoothSchedule/static/media/icon_orange.3ff02519b5ad688f8e32.png",
+    "static/media/solucao.png": "/SmoothSchedule/static/media/solucao.a545f980b29ffd50f5f1.png",
+    "index.html": "/SmoothSchedule/index.html",
+    "main.61c3d5ad.css.map": "/SmoothSchedule/static/css/main.61c3d5ad.css.map",
+    "main.ce45c178.js.map": "/SmoothSchedule/static/js/main.ce45c178.js.map",
+    "453.a6a97343.chunk.js.map": "/SmoothSchedule/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61c3d5ad.css",
+    "static/js/main.ce45c178.js"
+  ]
+}
