@@ -210,6 +210,7 @@ const EditInfo = () => {
     const reader = new FileReader();
     reader.onloadend = () => {
       if (reader.result) {
+        console.log("Nova imagem carregada:", reader.result); // Log para depuração
         setImg(reader.result); // Atualiza o estado com a URL base64 da imagem
       }
     };
@@ -229,7 +230,7 @@ const EditInfo = () => {
       }
 
       const docId = await editCompanyBasic(
-        userId,
+        doc,
         company,
         url_res,
         desc,
@@ -264,7 +265,7 @@ const EditInfo = () => {
           onChange={(e) => setCompany(e.target.value)}
         />
         <h1>Sua Logo:</h1>
-        <FileInputImage onImageUpload={handleImageUpload} img={img} />
+        <FileInputImage key={img} onImageUpload={handleImageUpload} img={img} />
         <h1>Descrição:</h1>
         <textarea
           name="Descricao"
