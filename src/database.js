@@ -350,7 +350,6 @@ const get_info = async (docID) => {
     const docSnap = await getDoc(docRef); // Obtém o documento
 
     if (docSnap.exists()) {
-      console.log("Dados do documento:", docSnap.data());
       return docSnap.data(); // Retorna os dados do documento
     } else {
       console.log("Nenhum documento encontrado!");

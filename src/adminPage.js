@@ -439,7 +439,6 @@ const AdminPage = () => {
                     <button
                         style={{ backgroundColor: "#008000", color: secondaryColor, marginBlock: "0.4em", marginTop: "1em" }}
                         onClick={() => {
-                        console.log(marcasTodos) // Passa o índice para a função
                         enviarEmails(agendamentos[agendamentoParaEditar].data, marcasTodos)
                         setOpenPopUpReagendamento(false); // Fecha o pop-up
                         }}

@@ -195,10 +195,6 @@ const EditInfo = () => {
     }, [doc]);
 
 
-    useEffect(() => {
-      console.log(img)
-    }, [img])
-
     if (loadingAuth) {
       return <div>Carregando...</div>;
     }
@@ -215,7 +211,6 @@ const EditInfo = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("User ID:", userId);
   
     try {
       let url_res = img; // Se não houver upload, manter a imagem original

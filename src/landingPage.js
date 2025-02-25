@@ -147,7 +147,6 @@ const verificarHorarioDisponivel = (dataSelecionada, horaSelecionada, diaDaSeman
 
   // Verifica se o dia está disponível
   if (!horariosDia || horariosDia[0] === horariosDia[1]) {
-      console.log("Dia indisponível:", dia);
       setMessageDiaError(`dia indisponível: ${dia}`)
       setErrodia(true)
       return false;
@@ -167,7 +166,6 @@ const verificarHorarioDisponivel = (dataSelecionada, horaSelecionada, diaDaSeman
 
   // Verifica se o horário selecionado está fora do intervalo de funcionamento
   if (horaSelecionadaMinutos < horaInicio || horaSelecionadaMinutos > horaFim || horaFinalMinutos > horaFim) {
-      console.log("Horário fora do intervalo de funcionamento:", horaSelecionada);
       setMessageHoraError(`Horário fora do intervalo de funcionamento: ${horaSelecionada}`)
       return false;
   }
@@ -178,7 +176,6 @@ const verificarHorarioDisponivel = (dataSelecionada, horaSelecionada, diaDaSeman
       const almocoFim = converterParaMinutos(horarioAlmoco[1]);
 
       if (horaSelecionadaMinutos >= almocoInicio && horaSelecionadaMinutos <= almocoFim) {
-          console.log("Horário dentro do intervalo de almoço:", horaSelecionada);
           setMessageHoraError(`Horário dentro do intervalo de almoço: ${horaSelecionada}`)
           return false;
       }
@@ -198,7 +195,6 @@ const verificarHorarioDisponivel = (dataSelecionada, horaSelecionada, diaDaSeman
               (horaFinalMinutos > agendamentoHoraInicio && horaFinalMinutos <= agendamentoHoraFim) || // Fim dentro do agendamento
               (horaSelecionadaMinutos <= agendamentoHoraInicio && horaFinalMinutos >= agendamentoHoraFim) // Agendamento cobre todo o intervalo
           ) {
-              console.log("Horário já agendado para esta data:", dataSelecionada, horaSelecionada);
               setMessageHoraError(`Horário já agendado para esta data e horário... Tente selecionar horários após das ${agendamento.final} ou selecionar outra data`)
               return false;
           }
@@ -355,7 +351,6 @@ const verificarHorarioDisponivel = (dataSelecionada, horaSelecionada, diaDaSeman
   
     // Verifica se o horário está disponível
     if (!verificarHorarioDisponivel(dataForm, horaForm, diaDaSemana, agendamentos, final)) {
-      console.log("Horário indisponível");
       setErro(true);
       setErroHora(true);
       return;

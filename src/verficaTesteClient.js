@@ -12,7 +12,6 @@ const CheckTrialClient = ({databaseTeste}) => {
 
 
   useEffect(() => {
-    console.log(databaseTeste)
     if (databaseTeste) {
       const startDate = new Date(databaseTeste);
       const currentDate = new Date();

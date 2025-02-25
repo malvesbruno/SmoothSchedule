@@ -105,15 +105,6 @@ const EditAgendamento = () => {
 
   const handleSubmit = async(e) =>{
     e.preventDefault()
-    console.log(pix, card, dinheiro)
-    console.log(horas)
-    console.log(segini, segfim)
-    console.log(terini, terfim)
-    console.log(quaini, quafim)
-    console.log(quiini, quifim)
-    console.log(sexini, sexfim)
-    console.log(sabini, sabfim)
-    console.log(domini, domfim)
 
     const time = {
       'seg': [`${segini}`, `${segfim}`],
@@ -128,7 +119,7 @@ const EditAgendamento = () => {
 
   console.table(time)
   const time_json = JSON.stringify(time)
-  console.log(time_json)
+
   try{
     await editAgentamentoInfo(doc, pix, card, dinheiro, horas, time_json)
     navigate(`/${userId}/${doc}/edit-service-data`)

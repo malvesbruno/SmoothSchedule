@@ -149,7 +149,6 @@ const LastEditions = () => {
 
   const handleClickImg = () => {
     setOpen_img(!open_img);
-    console.log(open_img)
   };
 
   const handleClickColorP = () => {

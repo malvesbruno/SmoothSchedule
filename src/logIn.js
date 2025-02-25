@@ -11,7 +11,6 @@ const LogInPage = ({cookiesAllowed}) => {
   const [password, setPassword] = useState(""); // Inicializando com uma string vazia
   const [error, setError] = useState(""); // Para capturar erros de login
 
-  console.log(cookiesAllowed)
 
   useEffect(() => {
     document.title = "LogIn";

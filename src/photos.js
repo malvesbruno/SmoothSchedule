@@ -20,14 +20,12 @@ const authorizationUrl = oauth2Client.generateAuthUrl({
   scope: scopes,
 });
 
-console.log("Acesse esta URL para autenticar:", authorizationUrl);
 
 // Função para obter o token de acesso após o usuário autenticar
 async function getAccessToken(code) {
   try {
     const { tokens } = await oauth2Client.getToken(code);
     oauth2Client.setCredentials(tokens);
-    console.log("Token de acesso:", tokens.access_token);
     return tokens;
   } catch (error) {
     console.error("Erro ao obter token de acesso:", error);
@@ -70,7 +68,6 @@ async function uploadImage(filePath) {
       resource: fileMetadata,
     });
 
-    console.log("Imagem enviada:", response.data);
   } catch (error) {
     console.error("Erro ao enviar imagem:", error);
     throw error;

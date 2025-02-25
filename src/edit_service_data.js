@@ -80,9 +80,7 @@ const EditService = () => {
   // Função para submeter o formulário corretamente
   const handleSubmit = async(event) => {
     event.preventDefault();
-    console.log("Serviços cadastrados:", inputs);
     const service_json = JSON.stringify(inputs)
-    console.log(service_json)
     try{
       await addServicoInfo(doc, service_json)
       navigate(`/${userId}/${doc}/edit-last-editions`)

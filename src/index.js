@@ -55,10 +55,8 @@ const Home = () => {
   
         if (isUserAuthenticated) {
           const data = await getDocByAuthUid();
-          console.log("Dados retornados:", data);
   
           if (data.user && data.doc) {
-            console.log("Redirecionando para:", `/${data.user}/${data.doc}/admin`);
             navigate(`/${data.user}/${data.doc}/admin`);
           } else {
             throw new Error("Campos 'user' ou 'doc' não encontrados no documento.");

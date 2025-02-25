@@ -174,7 +174,6 @@ const EditLastEditions = () => {
 
   const handleClickImg = () => {
     setOpen_img(!open_img);
-    console.log(open_img)
   };
 
   const handleClickColorP = () => {
@@ -226,7 +225,6 @@ const EditLastEditions = () => {
 
   try {
     let file;
-    console.log(img, oldImg)
     if (img === default_img) {
       const response = await fetch(default_img);
       const blob = await response.blob();

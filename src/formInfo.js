@@ -177,7 +177,6 @@ const FormInfo = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("User ID:", userId);
   
     try {
       let url_res = img; // Se não houver upload, manter a imagem original
