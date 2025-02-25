@@ -28,7 +28,7 @@ Autenticação: Firebase Auth
 
 📜 Licença
 
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença BY-NC - veja o arquivo LICENSE para mais detalhes.
 
 📞 Contato
 
