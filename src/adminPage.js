@@ -259,7 +259,8 @@ const AdminPage = () => {
   const getDesiredUrl = () => {
     const protocol = window.location.protocol; // "http:" ou "https:"
     const host = window.location.host; // "localhost:3000"
-    return `${protocol}//${host}/#/${doc}/`;
+    const basePath = window.location.pathname.split("/")[1]; 
+    return `${protocol}//${host}${basePath}/#/${doc}/`;
   };
 
   const handleCopyUrl = () => {
