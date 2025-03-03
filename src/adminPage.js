@@ -133,7 +133,6 @@ const AdminPage = () => {
               name,    // Nome da empresa
               link     // Link para remarcar
             );
-            handleCancelarAgendamento(agendamentos.indexOf(agendamento))
 
           });
         } else {
