@@ -150,7 +150,6 @@ const AdminPage = () => {
             name,    // Nome da empresa
             link     // Link para remarcar
           );
-          handleCancelarAgendamento(agendamentoParaEditar)
         }
       };
 
